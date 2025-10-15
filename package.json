@@ -1,0 +1,25 @@
+{
+  "name": "codegame-watt-bot",
+  "version": "1.0.0",
+  "description": "Auto-claim and auto-sell bot for CodeGame WATT tokens",
+  "main": "scripts/autoClaimAndSell.js",
+  "scripts": {
+    "claim": "node scripts/autoClaimAndSell.js",
+    "claim:live": "DRY_RUN=false node scripts/autoClaimAndSell.js"
+  },
+  "keywords": [
+    "solana",
+    "codegame",
+    "watt",
+    "bot",
+    "automation"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.9",
+    "@solana/web3.js": "^1.95.8",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
