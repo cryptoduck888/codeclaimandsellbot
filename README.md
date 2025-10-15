@@ -93,3 +93,11 @@ All execution logs are saved to `logs/autoClaimAndSell.log`.
 - Jupiter API is used for price quotes and swaps
 - Only market orders are supported (no limit orders)
 - The script automatically finds your user state account by querying on-chain data
+
+## Support
+
+If this bot helps you, consider supporting development:
+
+**Solana**: `2aMpFajeoewqNoeeUjN9jFWREXzV3sh4sXqp17vx9cn9`
+
+Thank you! 🙏
